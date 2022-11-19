@@ -1,0 +1,185 @@
+.parent{
+    width: 600px;
+    height: 600px;
+    margin: 160px auto;
+    position: relative;
+    animation-name: abc;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+   
+
+}
+@keyframes abc{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    }
+
+.child{
+    width: 300px ;
+    height: 300px;
+}
+.br1{
+    border-bottom-left-radius: 300px ;
+    border-top-right-radius: 300px ;
+}
+.br2{
+    border-top-left-radius: 300px;
+    border-bottom-right-radius:300px ;
+
+}
+.parent > .child1{
+    
+    background: green;
+    
+    transform-origin: right bottom;
+    transform: rotate(0deg);
+}
+.child2{
+    background: purple;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+   
+}
+.child3{
+    background: grey;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    
+}
+.child4{
+    background: orange;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    
+}
+.child5{
+    background: blueviolet;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform-origin: right bottom;
+    transform: rotate(12deg);
+    
+    
+}
+.child6a{
+    background: grey;
+    transform: rotate(24deg);
+}
+.child7a{
+    background: cadetblue;
+    transform: rotate(36deg);
+}
+.child8a{
+    background: honeydew;
+    transform: rotate(48deg);
+}
+.child9a{
+    background: aqua;
+    transform: rotate(60deg);
+}
+.child10a{
+    background: goldenrod;
+    transform: rotate(72deg);
+}
+.child11a{
+    background: wheat;
+    transform: rotate(84deg);
+}
+.child12a{
+    background: saddlebrown;
+    transform: rotate(96deg);
+}
+.child13a{
+    background: salmon;
+    transform: rotate(112deg);
+}
+.child14a{
+    background: aqua;
+    transform: rotate(120deg);
+}
+.child15a{
+    background: hotpink;
+    transform: rotate(132deg);
+}
+.child16a{
+    background: rebeccapurple;
+    transform: rotate(144deg);
+}
+.child17a{
+    background: darkslategrey;
+    transform: rotate(156deg);
+}
+.child18a{
+    background: seashell;
+    transform: rotate(168deg);
+}
+.child19a{
+    background: olivedrab;
+    transform: rotate(180deg);
+}
+.child20a{
+    background: white;
+    transform: rotate(192deg);
+}
+.child21a{
+    background: rebeccapurple;
+    transform: rotate(204deg);
+}
+.child22a{
+    background: teal;
+    transform: rotate(216deg);
+}
+.child23a{
+    background: tan;
+    transform: rotate(228deg);
+}
+.child24a{
+    background: thistle;
+    transform: rotate(240deg);
+}
+.child25a{
+    background: tomato;
+    transform: rotate(252deg);
+}
+.child26a{
+    background: yellowgreen;
+    transform: rotate(264deg);
+}
+.child27a{
+    background: indianred;
+    transform: rotate(276deg);
+}
+.child28a{
+    background: orchid;
+    transform: rotate(288deg);
+}
+.child29a{
+    background: aquamarine;
+    transform: rotate(300deg);
+}
+.child30a{
+    background: skyblue;
+    transform: rotate(312deg);
+}
+.child31a{
+    background: seagreen;
+    transform: rotate(324deg);
+}
+.child32a{
+    background: saddlebrown;
+    transform: rotate(336deg);
+}
+.child33a{
+    background: darkcyan;
+    transform: rotate(348deg);
+}
+
